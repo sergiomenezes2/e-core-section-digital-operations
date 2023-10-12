@@ -1,0 +1,144 @@
+# Copyright (C) 2023 Studio Visual
+# This file is distributed under the GPL-2.0+.
+msgid ""
+msgstr ""
+"Project-Id-Version: E-core Section Digital Operations 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/e-core-section-"
+"digital-operations\n"
+"POT-Creation-Date: 2023-10-11T19:21:45+00:00\n"
+"PO-Revision-Date: 2023-10-11 16:26-0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4\n"
+"X-Domain: e-core-section-digital-operations\n"
+
+#. Plugin Name of the plugin
+msgid "E-core Section Digital Operations"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://studiovisual.com.br"
+msgstr ""
+
+#. Description of the plugin
+msgid "Plugin Criado para adicionar a nova Section Digital Operations"
+msgstr ""
+
+#. Author of the plugin
+msgid "Studio Visual"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://studiovisual.com.br/"
+msgstr ""
+
+#: public/partials/e-core-section-digital-operations-public-display.php:5
+msgid ""
+"Gere impacto de negócio ao escalar eficiência no alinhamento entre "
+"estratégia e operações."
+msgstr "Suporte, Manutenção, Gerenciamento, Consultoria e Treinamento."
+
+#: public/partials/e-core-section-digital-operations-public-display.php:12
+msgid ""
+"Explore nossa plataforma de Soluções para Operações Digitais baseada nas "
+"ferramentas Atlassian e validada em campo pelas empresas mais exigentes do "
+"mundo."
+msgstr ""
+"Explore our Digital Operations Solutions® field-stressed by the most "
+"demanding companies worldwide and powered by Atlassian stack."
+
+#: public/partials/e-core-section-digital-operations-public-display.php:19
+msgid "Serviços Estratégicos"
+msgstr "Strategy Services "
+
+#: public/partials/e-core-section-digital-operations-public-display.php:20
+msgid "Avaliação de Práticas, Processos e Pessoas"
+msgstr "Practices, processes and People Assessment"
+
+#: public/partials/e-core-section-digital-operations-public-display.php:21
+msgid "Arquitetura de Soluções para Impacto de Negócio"
+msgstr "Business Impact Solution Design"
+
+#: public/partials/e-core-section-digital-operations-public-display.php:22
+msgid "Consultoria Especializada"
+msgstr "Domain Advisory"
+
+#: public/partials/e-core-section-digital-operations-public-display.php:29
+msgid "Migração Atlassian Cloud"
+msgstr "Atlassian Cloud Migrations"
+
+#: public/partials/e-core-section-digital-operations-public-display.php:30
+msgid "Avaliação Pré-Migração Cloud"
+msgstr "Cloud Migration Assessment"
+
+#: public/partials/e-core-section-digital-operations-public-display.php:31
+msgid "Migração Customizada"
+msgstr "Tailored Cloud Migration"
+
+#: public/partials/e-core-section-digital-operations-public-display.php:32
+msgid "Migração Rápida"
+msgstr "Flash Cloud Migration"
+
+#: public/partials/e-core-section-digital-operations-public-display.php:37
+msgid "Service Management"
+msgstr "Service Management"
+
+#: public/partials/e-core-section-digital-operations-public-display.php:38
+msgid "Gerenciamento de Serviços Corporativos (ESM)"
+msgstr "Enterprise SM"
+
+#: public/partials/e-core-section-digital-operations-public-display.php:39
+msgid "ITSM"
+msgstr "ITSM"
+
+#: public/partials/e-core-section-digital-operations-public-display.php:40
+msgid "Operações Modernizadas"
+msgstr "Modern Operations"
+
+#: public/partials/e-core-section-digital-operations-public-display.php:45
+msgid "Agile & DevOps"
+msgstr "Agile & DevOps"
+
+#: public/partials/e-core-section-digital-operations-public-display.php:46
+msgid "Agilidade Empresarial"
+msgstr "Enterprise Agility"
+
+#: public/partials/e-core-section-digital-operations-public-display.php:47
+msgid "SPM (Strategic Portfolio Management)"
+msgstr "PPM"
+
+#: public/partials/e-core-section-digital-operations-public-display.php:48
+msgid "PPM (Project Portfolio Management)"
+msgstr "SPM"
+
+#: public/partials/e-core-section-digital-operations-public-display.php:49
+msgid "Open DevOps"
+msgstr "Open DevOps"
+
+#: public/partials/e-core-section-digital-operations-public-display.php:54
+msgid "Soluções Técnicas"
+msgstr "Technical Solutions"
+
+#: public/partials/e-core-section-digital-operations-public-display.php:55
+msgid "Implementação e Configuração"
+msgstr "Implementation & Configuration"
+
+#: public/partials/e-core-section-digital-operations-public-display.php:56
+msgid "Consultoria em Apps do Marketplace"
+msgstr "Marketplace Apps Consulting"
+
+#: public/partials/e-core-section-digital-operations-public-display.php:57
+msgid "Otimização de Ferramentas Atlassian"
+msgstr "Atlassian Tooling Optimization"
+
+#: public/partials/e-core-section-digital-operations-public-display.php:63
+msgid "Prime Managed Services"
+msgstr "Prime Managed Services"
+
+#: public/partials/e-core-section-digital-operations-public-display.php:64
+msgid "Suporte, Manutenção, Gerenciamento, Consultoria e Treinamento."
+msgstr "Support, Maintenance, Management, Consultancy and Enablement."
