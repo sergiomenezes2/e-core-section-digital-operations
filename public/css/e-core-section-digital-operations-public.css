@@ -3,7 +3,7 @@
  * included in this file.
  */
 
-.container-strategy-services {
+ .container-strategy-services {
     max-width: 1450px !important;
     display: flex;
     flex-direction: column;
@@ -423,8 +423,9 @@
 
 @media screen and (max-width: 750px) {
     .container-strategy-services .content-sub-card {
-        margin: -190px 25px 0;
+        margin: -190px 0 0 25px;
         padding: 185px 36px 38px;
+        border-radius: 0 0 0 30px;
     }
 }
 
