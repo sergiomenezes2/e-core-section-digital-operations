@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2023-10-16T20:55:18+00:00\n"
+"POT-Creation-Date: 2023-10-17T02:21:24+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.8.1\n"
 "X-Domain: e-core-section-digital-operations\n"
@@ -74,6 +74,10 @@ msgstr ""
 msgid "Migração Rápida"
 msgstr ""
 
+#: public/partials/e-core-section-digital-operations-public-display.php:27
+msgid "/lt-pt/servicos/digital-operations/itsm-esm/"
+msgstr ""
+
 #: public/partials/e-core-section-digital-operations-public-display.php:28
 msgid "Service Management"
 msgstr ""
@@ -115,7 +119,7 @@ msgid "Open DevOps"
 msgstr ""
 
 #: public/partials/e-core-section-digital-operations-public-display.php:44
-msgid "lt-pt/servicos/atlassian-solutions/"
+msgid "/lt-pt/servicos/atlassian-solutions/"
 msgstr ""
 
 #: public/partials/e-core-section-digital-operations-public-display.php:45
@@ -132,6 +136,10 @@ msgstr ""
 
 #: public/partials/e-core-section-digital-operations-public-display.php:48
 msgid "Otimização de Ferramentas Atlassian"
+msgstr ""
+
+#: public/partials/e-core-section-digital-operations-public-display.php:53
+msgid "/lt-pt/servicos/digital-operations/atlassian-prime-services/"
 msgstr ""
 
 #: public/partials/e-core-section-digital-operations-public-display.php:54
