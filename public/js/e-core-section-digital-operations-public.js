@@ -5,7 +5,7 @@
         function toggleSlick() {
             const $element = $(".content-info-fat");
 
-            if ($(window).width() < 900) {
+            if ($(window).width() < 750) {
                 if (!$element.hasClass("slick-initialized")) {
                     $element.slick({
                     dots: false,

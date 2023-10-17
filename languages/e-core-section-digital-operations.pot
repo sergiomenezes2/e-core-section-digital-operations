@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2023-10-11T19:27:03+00:00\n"
+"POT-Creation-Date: 2023-10-16T20:55:18+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.8.1\n"
 "X-Domain: e-core-section-digital-operations\n"
@@ -34,102 +34,110 @@ msgstr ""
 msgid "https://studiovisual.com.br/"
 msgstr ""
 
-#: public/partials/e-core-section-digital-operations-public-display.php:5
-msgid "Gere impacto de negócio ao escalar eficiência no alinhamento entre estratégia e operações."
+#: public/partials/e-core-section-digital-operations-public-display.php:4
+msgid "/lt-pt/contato/"
 msgstr ""
 
-#: public/partials/e-core-section-digital-operations-public-display.php:12
-msgid "Explore nossa plataforma de Soluções para Operações Digitais baseada nas ferramentas Atlassian e validada em campo pelas empresas mais exigentes do mundo."
-msgstr ""
-
-#: public/partials/e-core-section-digital-operations-public-display.php:19
+#: public/partials/e-core-section-digital-operations-public-display.php:6
 msgid "Serviços Estratégicos"
 msgstr ""
 
-#: public/partials/e-core-section-digital-operations-public-display.php:20
+#: public/partials/e-core-section-digital-operations-public-display.php:7
 msgid "Avaliação de Práticas, Processos e Pessoas"
 msgstr ""
 
-#: public/partials/e-core-section-digital-operations-public-display.php:21
+#: public/partials/e-core-section-digital-operations-public-display.php:8
 msgid "Arquitetura de Soluções para Impacto de Negócio"
 msgstr ""
 
-#: public/partials/e-core-section-digital-operations-public-display.php:22
+#: public/partials/e-core-section-digital-operations-public-display.php:9
 msgid "Consultoria Especializada"
 msgstr ""
 
-#: public/partials/e-core-section-digital-operations-public-display.php:29
+#: public/partials/e-core-section-digital-operations-public-display.php:19
+msgid "/lt-pt/servicos/digital-operations/migracao-para-atlassian-cloud/"
+msgstr ""
+
+#: public/partials/e-core-section-digital-operations-public-display.php:20
 msgid "Migração Atlassian Cloud"
 msgstr ""
 
-#: public/partials/e-core-section-digital-operations-public-display.php:30
+#: public/partials/e-core-section-digital-operations-public-display.php:21
 msgid "Avaliação Pré-Migração Cloud"
 msgstr ""
 
-#: public/partials/e-core-section-digital-operations-public-display.php:31
+#: public/partials/e-core-section-digital-operations-public-display.php:22
 msgid "Migração Customizada"
 msgstr ""
 
-#: public/partials/e-core-section-digital-operations-public-display.php:32
+#: public/partials/e-core-section-digital-operations-public-display.php:23
 msgid "Migração Rápida"
 msgstr ""
 
-#: public/partials/e-core-section-digital-operations-public-display.php:37
+#: public/partials/e-core-section-digital-operations-public-display.php:28
 msgid "Service Management"
 msgstr ""
 
-#: public/partials/e-core-section-digital-operations-public-display.php:38
+#: public/partials/e-core-section-digital-operations-public-display.php:29
 msgid "Gerenciamento de Serviços Corporativos (ESM)"
 msgstr ""
 
-#: public/partials/e-core-section-digital-operations-public-display.php:39
+#: public/partials/e-core-section-digital-operations-public-display.php:30
 msgid "ITSM"
 msgstr ""
 
-#: public/partials/e-core-section-digital-operations-public-display.php:40
+#: public/partials/e-core-section-digital-operations-public-display.php:31
 msgid "Operações Modernizadas"
 msgstr ""
 
-#: public/partials/e-core-section-digital-operations-public-display.php:45
+#: public/partials/e-core-section-digital-operations-public-display.php:35
+msgid "/lt-pt/servicos/digital-operations/agile-com-atlassian/"
+msgstr ""
+
+#: public/partials/e-core-section-digital-operations-public-display.php:36
 msgid "Agile & DevOps"
 msgstr ""
 
-#: public/partials/e-core-section-digital-operations-public-display.php:46
+#: public/partials/e-core-section-digital-operations-public-display.php:37
 msgid "Agilidade Empresarial"
 msgstr ""
 
-#: public/partials/e-core-section-digital-operations-public-display.php:47
+#: public/partials/e-core-section-digital-operations-public-display.php:38
 msgid "SPM (Strategic Portfolio Management)"
 msgstr ""
 
-#: public/partials/e-core-section-digital-operations-public-display.php:48
+#: public/partials/e-core-section-digital-operations-public-display.php:39
 msgid "PPM (Project Portfolio Management)"
 msgstr ""
 
-#: public/partials/e-core-section-digital-operations-public-display.php:49
+#: public/partials/e-core-section-digital-operations-public-display.php:40
 msgid "Open DevOps"
 msgstr ""
 
-#: public/partials/e-core-section-digital-operations-public-display.php:54
+#: public/partials/e-core-section-digital-operations-public-display.php:44
+msgid "lt-pt/servicos/atlassian-solutions/"
+msgstr ""
+
+#: public/partials/e-core-section-digital-operations-public-display.php:45
 msgid "Soluções Técnicas"
 msgstr ""
 
-#: public/partials/e-core-section-digital-operations-public-display.php:55
+#: public/partials/e-core-section-digital-operations-public-display.php:46
 msgid "Implementação e Configuração"
 msgstr ""
 
-#: public/partials/e-core-section-digital-operations-public-display.php:56
+#: public/partials/e-core-section-digital-operations-public-display.php:47
 msgid "Consultoria em Apps do Marketplace"
 msgstr ""
 
-#: public/partials/e-core-section-digital-operations-public-display.php:57
+#: public/partials/e-core-section-digital-operations-public-display.php:48
 msgid "Otimização de Ferramentas Atlassian"
 msgstr ""
 
-#: public/partials/e-core-section-digital-operations-public-display.php:63
+#: public/partials/e-core-section-digital-operations-public-display.php:54
 msgid "Prime Managed Services"
 msgstr ""
 
-#: public/partials/e-core-section-digital-operations-public-display.php:64
+#: public/partials/e-core-section-digital-operations-public-display.php:55
 msgid "Suporte, Manutenção, Gerenciamento, Consultoria e Treinamento."
 msgstr ""
