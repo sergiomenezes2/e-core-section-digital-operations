@@ -8,14 +8,14 @@
             if ($(window).width() < 750) {
                 if (!$element.hasClass("slick-initialized")) {
                     $element.slick({
-                    dots: false,
-                    arrows: false,
-                    infinite: false,
-                    speed: 300,
-                    centerMode: true,
-                    slidesToShow: 1,
-                    centerPadding: "0",
-                    variableWidth: true,
+                        dots: false,
+                        arrows: false,
+                        infinite: false,
+                        speed: 300,
+                        centerMode: true,
+                        slidesToShow: 1,
+                        centerPadding: "0",
+                        variableWidth: true,
                     });
                 }
             } else {
@@ -28,11 +28,11 @@
                 "beforeChange",
                 function (event, slick, currentSlide, nextSlide) {
                     if (nextSlide < currentSlide) {
-                    $(slick.$slides[currentSlide - 1]).css("opacity", 1);
+                        $(slick.$slides[currentSlide - 1]).css("opacity", 1);
                     }
                     $(slick.$slides[currentSlide + 1])
-                    .find("p")
-                    .css("color", "#fff");
+                        .find("p")
+                        .css("color", "#fff");
                 }
             );
 
@@ -40,43 +40,65 @@
                 "afterChange",
                 function (event, slick, currentSlide) {
                     if (currentSlide > 0) {
-                    $(slick.$slides[currentSlide - 1]).css("opacity", 0);
-                    $(slick.$slides[currentSlide + 1])
-                        .find("p")
-                        .css("color", "transparent");
+                        $(slick.$slides[currentSlide - 1]).css("opacity", 0);
+                        $(slick.$slides[currentSlide + 1])
+                            .find("p")
+                            .css("color", "transparent");
                     } else {
                         $(slick.$slides[currentSlide]).css("opacity", 1);
                         $(slick.$slides[currentSlide + 1]).css("opacity", 1);
                     }
 
                     if (currentSlide === slick.$slides.length - 1) {
-                    $(".return-arrow").show();
+                        $("#arrow-back").css("display", 'block');
+                        $("#arrow-back").css("opacity", 1);
                     } else {
-                    $(".return-arrow").hide();
+                        $("#arrow-back").css("opacity", 0);
+                        $("#arrow-back").css("display", 'none');
                     }
                 }
             );
         }
 
         function animateBlocksOnVisibility() {
-            const blocks = document.querySelectorAll(".content-info-fat");
+            const blocks = $(".content-info-fat");
             const observer = new IntersectionObserver((entries) => {
                 entries.forEach((entry) => {
                     if (entry.isIntersecting) {
-                    entry.target.classList.add("active");
+                        if ($(window).width() < 750) {
+                            fadeInAndOut("#arrow-start");
+                        }
+                        entry.target.classList.add("active");
                     }
                 });
             });
 
-            blocks.forEach((block) => {
+            blocks.each((index, block) => {
                 observer.observe(block);
             });
         }
 
         function backBtn() {
-            $(".return-arrow").on("click", function () {
+            $("#arrow-back").on("click", function () {
                 $(".content-info-fat").slick("slickGoTo", 0);
+                $("#arrow-back").css('opacity', '0');
+                $("#arrow-back").css("display", 'none');
             });
+        }
+
+        function fadeInAndOut(ref) {
+            var element = $(ref);
+            element.css("opacity", 1);
+
+            if (ref === "#arrow-start") {
+                setTimeout(function () {
+                    element.css("opacity", 0);
+                }, 3000);
+
+                setTimeout(function () {
+                    element.css("display", "none");
+                }, 4000);
+            }
         }
 
         backBtn();

@@ -9,9 +9,14 @@
                     <p class="text"><?php echo _e('Consultoria Especializada', 'e-core-section-digital-operations'); ?></p>
                 </div>
             </a>
-            <div class="return-arrow" style="display: none;">
-                    <img src="<?php echo plugin_dir_url(__FILE__) . '../assets/btn.svg'; ?>" alt="">
-                </div>
+        </div>
+
+        <div id="arrow-start" class="arrows">
+            <img src="<?php echo plugin_dir_url(__FILE__) . '../assets/arrow-start.svg'; ?>" alt="">
+        </div>
+
+        <div id="arrow-back" class="arrows">
+            <img src="<?php echo plugin_dir_url(__FILE__) . '../assets/arrow-back.svg'; ?>" alt="">
         </div>
 
         <div class="content-info-fat">
